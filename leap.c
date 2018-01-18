@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int y
+int y,l;
 printf("enter the year");
 scanf("%d",&y);
 l=y%4;
