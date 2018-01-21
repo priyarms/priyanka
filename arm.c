@@ -13,9 +13,8 @@ sum=sum+(r*r*r);
 n=n/10;    
 }    
 if(n1==sum)    
-printf("armstrong  number ");    
+printf("yes");    
 else    
-printf("not armstrong number");    
-return 0;  
+printf("no");     
 }   
 
