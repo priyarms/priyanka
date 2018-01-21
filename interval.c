@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int s,e,i;
+int s,e,i,m=0,r;
 printf("enter a number");
 scanf("%d%d",&s,&e);
 for(i=s;i<=e;i++)
@@ -9,9 +9,9 @@ for(i=s;i<=e;i++)
 while(i!=0)
 {
 r=i%10;
-s=s+(r*r*r);
+m=m+(r*r*r);
 i=i/10;
 }
-printf("%d",&i);
+printf("%d",m);
 }
 }
