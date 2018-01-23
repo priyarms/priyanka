@@ -1,14 +1,14 @@
 #include<stdio.h>
-int main()
+void main()
 {
-int n,k,diff,sum=0,temp,i;
-scanf("%d%d%d",&n,&k,&diff);
+int n,k,d,sum=0,temp,i;
+scanf("%d%d%d",&n,&k,&d);
 for(i=0;i<n;i++)
 {
-temp=sum+k;
-sum=temp;
-k=k+diff;
+t=sum+k;
+sum=t;
+k=k+d;
 }
-printf("%d",temp);
-return 0;
+printf("%d",t);
+
 }
