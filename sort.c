@@ -2,11 +2,11 @@
 #define size 50
 void main()
 {
-int a[size],ij,temp,n;
+int a[size],i,j,temp,n;
 printf("enter num");
 scanf("%d",&n);
-prinf("numbers");
-for(i=0;i<num;i++)
+printf("numbers");
+for(i=0;i<n;i++)
 scanf("%d",&a[i]);
 for (i = 0; i < n; i++)
     {
