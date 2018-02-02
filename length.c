@@ -2,12 +2,18 @@
 void main()
 {
     char s[1000], i;
+    int count=0;
 
     printf("Enter a string: ");
-    scanf("%s", s);
+    scanf("%[^\n]s", s);
 
     for(i = 0; s[i] != '\0'; i++);
-
-    printf("Length of string: %d", i);
+    {
+        if(s[i]==' ')
+        {
+        count++;
+        }
+    }
+    printf("Length of string: %d", count+1);
     
 }
