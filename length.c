@@ -1,8 +1,8 @@
 #include <stdio.h>
 void main()
 {
-    char s[1000], i;
-    int count=0;
+    char s[1000];
+    int count=0,i;
 
     printf("Enter a string: ");
     scanf("%[^\n]s", s);
