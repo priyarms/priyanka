@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 void main()
 {
   int i,n,a[50],m,c;
