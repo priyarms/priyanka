@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int n,m;
+int n,m,s;
 printf("enter numbers");
 scanf("%d%d",&n,&m);
 s=n*m;
