@@ -12,7 +12,7 @@ void main()
     }
   }
   if(count==2)
-  printf("prime number");
+  printf("yes");
   else
-  printf("not prime number");
+  printf("not");
 }
