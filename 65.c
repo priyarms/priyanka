@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main()
 {
-  if(printf("hello world"))
+  char a[20];
+  scanf("%[^\n]s",&a);
+  if(printf("%s",a))
   {
   }
 }
