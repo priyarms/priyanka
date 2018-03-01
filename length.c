@@ -7,7 +7,7 @@ void main()
     printf("Enter a string: ");
     scanf("%[^\n]s", s);
 
-    for(i = 0; s[i] != '\0'; i++);
+    for(i = 0; s[i] != '\0'; i++)
     {
         if(s[i]==' ')
         {
