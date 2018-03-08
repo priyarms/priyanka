@@ -1,11 +1,18 @@
 #include<stdio.h>
-void main()
+int main()
 {
-int a,b;
+int a,b,i,c;
 printf("enter two numbers");
 scanf("%d%d",&a,&b);
-if(a==b)
+  c=a*b;
+  for(i=0;i<c;i++)
+  {
+    if(c==i*i)
+    {
 printf("yes");
-else
+return 0;
+}
+}
 printf("no");
 }
+
